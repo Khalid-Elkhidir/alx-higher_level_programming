@@ -6,3 +6,4 @@ def square_matrix_simple(matrix=[]):
 		for j in i:
 			new_sub_array.append(j * j)
 		new_matrix.append(new_sub_array)
+	return new_matrix
